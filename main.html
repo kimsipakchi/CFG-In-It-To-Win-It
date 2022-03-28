@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Homepage</title>
+        <!-- Insert JS file here -->
+        <script src=""></script>
+        <!-- Insert CSS file here-->
+        <link rel="stylesheet" href=""/>
+      </head>
+
+<h1>Welcome to the brain!</h1>
+
+<hr>
+
+<body>
+    <!--Website guidance-->
+    <div class='Instructions'>
+        <h3>Click on the different parts of the brain to find out more ...</h3>
+    </div>
+
+    <!--Interactive brain section-->
+    <div class="brain image map">
+        <img src="https://brainframe-kids.com/brain/images/facts-lobes-900w.png" alt="Diagram of Brain Lobes" usemap="#brainmap" width="700" height="466">
+        <!--Frontal lobe-->
+        <map name="brainmap">
+            <area shape="poly" coords="420,61,355,56,232,78,158,113,92,169,63,207,57,266,94,322,133,353,185,359,247,333,293,305,319,304,346,273,330,229,355,127,406,91" alt="Frontal Lobe" href="frontal.htm">
+        </map>
+            <!--JS for alert pop up-->
+            <script>
+                function myFunction() {
+                alert("You clicked the Frontal lobe!");
+                }
+            </script>
+
+        <!--Parietal lobe-->
+        <map name="brainmap">
+            <area shape="poly" coords="342,283,432,287,477,313,507,332,532,356,567,343,591,316,609,273,644,254,665,215,644,175,602,135,538,93,442,60,416,64,400,97,368,117,337,189" alt="Parietal Lobe" href="parietal.htm">
+        </map>
+            <!--JS for alert pop up-->
+            <script>
+                function myFunction() {
+                alert("You clicked the Parietal lobe!");
+                }
+            </script>
+
+        <!--Temporal lobe-->
+        <map name="brainmap">
+            <area shape="poly" coords="576,471,433,456,301,472,255,457,217,410,213,364,227,340,303,306,352,288,436,289,505,333,517,357,540,367,553,414" alt="Temporal Lobe" href="temporal.htm">
+        </map>
+            <!--JS for alert pop up-->
+            <script>
+                function myFunction() {
+                alert("You clicked the Temporal lobe!");
+                }
+            </script>
+
+        <!--Occipital lobe-->
+        <map name="brainmap">
+            <area shape="poly" coords="669,218,710,311,711,411,682,465,581,471,558,416,534,360,594,322,618,270,642,251" alt="Occipital Lobe" href="occipital.htm">
+        </map>
+            <!--JS for alert pop up-->
+            <script>
+                function myFunction() {
+                alert("You clicked the Occipital lobe!");
+                }
+            </script>
+    </div>
+
+    <hr>
+
+    <div class="Disclaimer">
+        <p1><i>**This is not medical advice. If you believe that you or someone else is in need of medical attention, please contact a qualified medical professional**</i></p1>
+    </div>
+</body> 
+</html>
