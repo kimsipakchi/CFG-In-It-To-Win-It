@@ -1,0 +1,104 @@
+body
+{
+    background-color: bisque;
+    display: grid;
+    place-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+       
+}
+
+h1
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    color: black;
+}
+
+h2 
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align:center;
+}
+
+h4 
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align:center;
+}
+
+.Intro
+{
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 30px;  
+}
+
+.Condition 
+{
+    background-color: white;
+    box-sizing: content-box;
+    width: 100%;
+    padding: 10px;    
+}
+
+.External  
+{
+    
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 30px;   
+}
+
+.Woman
+{
+    background-color: white;
+    box-sizing: content-box;
+    width: 100%;
+    padding: 10px;
+    place-items: center;
+}
+
+.Quotes
+{
+    display:inline-block;
+    padding-right: 40px;
+    padding-left: 30px;  
+
+}
+
+.Sources
+{
+    background-color: white;
+    box-sizing: content-box;
+    width: 100%;
+    padding: 10px;
+    place-items: center;  
+}
+
+.Disclaimer
+{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: black;
+    background-color: bisque;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+}
+
