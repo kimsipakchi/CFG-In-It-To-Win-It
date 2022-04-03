@@ -72,6 +72,14 @@ h4
     place-items: center;
 }
 
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .Quotes
 {
     display:inline-block;
