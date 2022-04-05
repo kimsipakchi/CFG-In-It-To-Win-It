@@ -40,10 +40,11 @@ h4
     text-align:center;
 }
 
-.Nav
+.NavBar
 {
     background-color: white;
-    box-sizing: border-box;
+    display: inline-block;
+    list-style-type: none;
     width: 100%;
     padding: 10px;
     
